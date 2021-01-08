@@ -132,7 +132,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['Kotlin', 'Java', 'Flutter'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,19 +141,20 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Ramesh, a mobile engineer based in Los Angeles, CA.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I enjoy building solution which solve the problems, does not matter how big or small
+              that solution is, from scratch to end product. Always focus on result driven and
+              quality of the applications.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Shortly after graduating from <a href="https://www.miu.edu">Maharishi University</a>,
+              I joined the engineering team at{' '}
+              <a href="https://www.thrivemarket.com">Thrive Market Inc</a> where I work on a
+              enhancing the android mobile application, releasing the exciting features and user
+              engagment, which gives user a better platform to shop healthy and sustainable food.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
